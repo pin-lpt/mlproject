@@ -9,6 +9,7 @@ import pandas as pd
 # Import from mlproject
 import mlproject
 from mlproject.lib import clean_data
+from mlproject import lib
 
 if __name__ == '__main__':
     usage = '%(prog)s'
