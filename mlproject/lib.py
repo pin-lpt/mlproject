@@ -7,7 +7,7 @@ from os.path import split
 import pandas as pd
 import datetime
 import pandas as pd
-from tensorflow.keras import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 
 pd.set_option('display.width', 200)
