@@ -66,7 +66,3 @@ if __name__ == '__main__':
     df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
     clean_data = clean_data(df)
     print(' dataframe cleaned')
-
-    to_date_time_data(data)
-
-    to_cat(y)
